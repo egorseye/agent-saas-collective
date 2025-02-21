@@ -1,4 +1,6 @@
 
+import { SearchBar } from "./SearchBar";
+
 export const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
@@ -20,8 +22,12 @@ export const HeroSection = () => {
           <p className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-600">
             Connect with top AI developers and find the perfect automation solutions for your business needs.
           </p>
+
+          <div className="max-w-2xl mx-auto">
+            <SearchBar />
+          </div>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
             <button className="inline-flex items-center px-6 py-3 rounded-lg bg-black text-white hover:bg-gray-800 transition-colors">
               Explore Agents
             </button>
