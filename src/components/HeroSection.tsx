@@ -1,15 +1,11 @@
 
 export const HeroSection = () => {
   return (
-    <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden pt-16">
+    <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden pt-16">
       <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-white -z-10" />
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
         <div className="text-center space-y-8 animate-fade-in">
-          <div className="inline-block px-4 py-1.5 bg-black/5 rounded-full text-sm font-medium text-gray-900 backdrop-blur-sm">
-            Discover the Future of Business Automation
-          </div>
-          
           <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 tracking-tight max-w-3xl mx-auto">
             The Marketplace for
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-600">
